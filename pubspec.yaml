@@ -43,8 +43,9 @@ dev_dependencies:
   intl: any
 
   flutter:
-      generate: true
       uses-material-design: true
+      generate: true
+      
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
