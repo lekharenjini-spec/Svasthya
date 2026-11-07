@@ -48,10 +48,18 @@ class HomePage extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            ElevatedButton(
-              onPressed: () {},
-              child: const Text("Find Hospitals"),
-            ),
+            ElevatedButton.icon(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const HospitalMapPage(),
+                    ),
+                  );
+                },
+                icon: const Icon(Icons.map),
+                label: const Text('Find Nearby Hospitals'),
+              ), 
 
             ElevatedButton(
               onPressed: () {},
