@@ -58,7 +58,7 @@ class HomePage extends StatelessWidget {
                   );
                 },
                 icon: const Icon(Icons.map),
-                label: const Text('Find Nearby Hospitals'),
+                label: const Text('Find Hospitals & Doctors'),
               ), 
 
             ElevatedButton(
@@ -75,4 +75,4 @@ class HomePage extends StatelessWidget {
       ),
     );
   }
-}8
+}
