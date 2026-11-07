@@ -1,3 +1,4 @@
+
 class HospitalLocation {
   final String name;
   final String address;
@@ -14,5 +15,6 @@ class HospitalLocation {
   });
 }
 
-// Add verified hospital information here.
+// Verified hospital information will be added here.
 const List<HospitalLocation> hospitalLocations = [];
+
