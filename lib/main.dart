@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
             const SizedBox(height: 20),
 
             const Text(
-              "Welcome to Healthcare",
+              "Welcome to Svasthya",
               style: TextStyle(fontSize: 23),
             ),
 
