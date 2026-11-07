@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Medical Healthcare App"),
+        title: const Text("Svasthya"),
         backgroundColor: Colors.teal,
       ),
 
