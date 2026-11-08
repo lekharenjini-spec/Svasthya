@@ -111,7 +111,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 const SizedBox(height: 7),
 
                 DropdownButtonFormField<String>(
-                  value: accountType,
+                  initialValue: accountType,
                   decoration: fieldDecoration(
                     'Select account type',
                     Icons.account_circle,
