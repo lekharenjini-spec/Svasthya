@@ -1,0 +1,31 @@
+ 
+{
+    "@@locale": "hi",
+  "appTitle": "स्वास्थ्य",
+  "findHospitals": "अस्पताल और डॉक्टर खोजें",
+  "medicineDelivery": "दवा वितरण",
+  "voiceAssistant": "आवाज़ सहायक",  
+  "tagline": "आपका स्वास्थ्य, हमारी प्राथमिकता",
+  "welcome": "स्वास्थ्य में आपका स्वागत है",
+  "home": "होम",
+  "emergency": "आपातकालीन सहायता",
+  "findAmbulance": "एम्बुलेंस खोजें",
+  "callAmbulance": "एम्बुलेंस को कॉल करें",
+  "ambulanceNumber": "एम्बुलेंस फोन नंबर",
+  "nearbyHospitals": "नज़दीकी अस्पताल",
+  "search": "खोजें",
+  "location": "आपका स्थान",
+  "selectLanguage": "भाषा चुनें",
+  "help": "हम आपकी कैसे मदद कर सकते हैं?",
+  "contact": "संपर्क करें",
+  "about": "हमारे बारे में",
+  "settings": "सेटिंग्स",
+  "loading": "लोड हो रहा है...",
+  "noResults": "कोई परिणाम नहीं मिला",
+  "tryAgain": "फिर से प्रयास करें",
+  "cancel": "रद्द करें",
+  "confirm": "पुष्टि करें",
+  "back": "वापस",
+  "submit": "जमा करें"
+}
+ 

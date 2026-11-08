@@ -1,28 +1,33 @@
- 
-name: svasthya
-description: "Healthcare and ambulance finder app."
-publish_to: 'none'
+ name: svasthya_app
+ description: "A healthcare and medical hub."
+ publish_to: 'none'
 
-version: 1.0.0+1
+ version: 1.0.0+1
 
-environment:
+ environment:
   sdk: ^3.13.7
 
-dependencies:
+ dependencies:
   flutter:
     sdk: flutter
+
   flutter_localizations:
     sdk: flutter
-  intl: any
-  cupertino_icons: ^1.0.8
-  flutter_map: any
-  latlong2: any
 
-dev_dependencies:
+  intl: any
+
+  cupertino_icons: ^2.0.0
+  google_maps_flutter: ^2.19.0
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+  url_launcher: ^6.3.3
+
+ dev_dependencies:
   flutter_test:
     sdk: flutter
+
   flutter_lints: ^6.0.0
 
-flutter:
+ flutter:
   uses-material-design: true
   generate: true

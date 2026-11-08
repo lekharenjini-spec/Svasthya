@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+ import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 
@@ -6,7 +6,7 @@ import 'hospital_map_data.dart';
 
 class HospitalMap extends StatelessWidget {
   final List<HospitalLocation> hospitals;
-  final Function(HospitalLocation) onHospitalTap;
+  final ValueChanged<HospitalLocation> onHospitalTap;
 
   const HospitalMap({
     super.key,
@@ -27,7 +27,6 @@ class HospitalMap extends StatelessWidget {
               'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
           userAgentPackageName: 'com.example.swasthya',
         ),
-
         MarkerLayer(
           markers: hospitals.map((hospital) {
             return Marker(
@@ -48,7 +47,6 @@ class HospitalMap extends StatelessWidget {
             );
           }).toList(),
         ),
-
         RichAttributionWidget(
           attributions: [
             TextSourceAttribution(

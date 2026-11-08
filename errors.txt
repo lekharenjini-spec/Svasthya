@@ -1,0 +1,49 @@
+Unhandled exception:
+Error on line 2, column 1: Only expected one document.
+   ╷
+2  │ ┌ description: "A healthcare and medical hub."
+3  │ │ publish_to: 'none'
+4  │ │ 
+5  │ │ version: 1.0.0+1
+6  │ │ 
+7  │ │ environment:
+8  │ │   sdk: ^3.13.7
+9  │ │ 
+10 │ │ dependencies:
+11 │ │   flutter:
+12 │ │     sdk: flutter
+13 │ │ 
+14 │ │   cupertino_icons: ^1.0.8
+15 │ │ 
+16 │ │ dev_dependencies:
+17 │ │   flutter_test:
+18 │ │     sdk: flutter
+19 │ │ 
+20 │ │   flutter_lints: ^6.0.0
+21 │ │ 
+22 │ │ flutter:
+23 │ │   uses-material-design: true
+24 │ │   grnerate: true
+25 │ │ 
+26 │ │ 
+27 │ │ 
+28 │ └ 
+   ╵
+#0      loadYamlDocument (package:yaml/yaml.dart:77:5)
+#1      loadYamlNode (package:yaml/yaml.dart:54:5)
+#2      loadYaml (package:yaml/yaml.dart:41:5)
+#3      FlutterManifest.createFromString (package:flutter_tools/src/flutter_manifest.dart:54:28)
+#4      FlutterManifest.createFromPath (package:flutter_tools/src/flutter_manifest.dart:48:28)
+#5      runInContext.<anonymous closure> (package:flutter_tools/src/context_runner.dart:227:44)
+#6      AppContext._generateIfNecessary.<anonymous closure> (package:flutter_tools/src/base/context.dart:108:42)
+#7      _LinkedHashMapMixin.putIfAbsent (dart:_compact_hash:631:23)
+#8      AppContext._generateIfNecessary (package:flutter_tools/src/base/context.dart:95:20)
+#9      AppContext.get (package:flutter_tools/src/base/context.dart:125:32)
+#10     featureFlags (package:flutter_tools/src/features.dart:13:42)
+#11     run.<anonymous closure> (package:flutter_tools/runner.dart:55:40)
+#12     runInContext.runnerWrapper (package:flutter_tools/src/context_runner.dart:76:18)
+<asynchronous suspension>
+#13     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+<asynchronous suspension>
+#14     main (package:flutter_tools/executable.dart:103:3)
+<asynchronous suspension>

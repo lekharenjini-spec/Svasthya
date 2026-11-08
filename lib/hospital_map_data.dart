@@ -1,4 +1,4 @@
-class HospitalLocation {
+ class HospitalLocation {
   final String name;
   final String address;
   final String phone;
@@ -15,4 +15,4 @@ class HospitalLocation {
 }
 
 // Add verified hospital information here.
-const List<HospitalLocation> hospitalLocations = [];
+const List<HospitalLocation> hospitalLocations = []; 
