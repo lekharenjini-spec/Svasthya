@@ -8,6 +8,7 @@
  import 'login_screen.dart';
  import 'signup_screen.dart';
  import 'package:supabase_flutter/supabase_flutter.dart';
+ import 'chatbot_page.dart';
 
 
  Future<void> main() async {
@@ -244,9 +245,29 @@ class HomePage extends StatelessWidget {
               icon: const Icon(Icons.mic),
               label: Text(app.voiceAssistant),
             ),
-          ],
-        ),
-      ),
-    );
+
+            const SizedBox(height: 12),
+
+            ElevatedButton.icon(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const ChatbotPage(),
+                   ),
+                 );
+                },
+                icon: const Icon(Icons.smart_toy),
+                label: const Text('Swasthya Assistant'),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.teal,
+                  foregroundColor: Colors.white,
+                  minimumSize: const Size(double.infinity, 50),
+                ),
+              ),            
+            ],
+          ),
+        ), 
+      );
+    }
   }
-}
