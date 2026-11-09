@@ -1,4 +1,3 @@
- 
  import 'package:flutter/material.dart';
  import 'package:flutter_localizations/flutter_localizations.dart';
 
@@ -8,11 +7,19 @@
  import 'splash_screen.dart';
  import 'login_screen.dart';
  import 'signup_screen.dart';
- import 'package:url_launcher/url_launcher.dart';
+ import 'package:supabase_flutter/supabase_flutter.dart';
 
 
-void main() {
+ Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Supabase.initialize(
+    url: 'https://urskffdrrdiwrqycakiq.supabase.co/rest/v1/',
+    publishableKey:  'sb_publishable_opvv4Zaev8qNF8356vwyqg_gPCK-BDv' ,
+  );
+
   runApp(const MedicalApp());
+
 }
 
 class MedicalApp extends StatefulWidget {
